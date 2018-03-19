@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class TotalPathsinNxNMatrix {
     public static void main(String args[]) {
 
+
         Scanner scan = new Scanner(System.in);
         int n = scan.nextInt();
 
@@ -54,14 +55,15 @@ public class TotalPathsinNxNMatrix {
 
     }
 
+
     /**
      * Result : Input : 5 
      * Normal Rec: Total Number of ways to reach are : 70 
      * Total Time in Normal Rec:481231 
-     * 
+     *
      * Memoization : Total Number of ways to reach end are : 70 
      * Total Time in Memoization :64706
-     * 
+     *
      */
 
 }
