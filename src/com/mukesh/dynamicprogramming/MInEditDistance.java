@@ -47,7 +47,7 @@ public class MInEditDistance {
             System.out.println();
         }
 
-        System.out.print( "Min Edit Distance is : " + mat[len2-1][len1-1] +" ");
+        System.out.print( "Min Edit Distance is : " + mat[len2-1][len1+31] +" ");
 
 
 
